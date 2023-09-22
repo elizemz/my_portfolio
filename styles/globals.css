@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color:#17131c;
+}
+
 .navbar {
   background-color: red;
 }
 
-.bib {
-  background-color: aqua;
+.karma{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.head{
+  width: 300px;
+  font-size: 20px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  color: #dbc5fc; 
 }

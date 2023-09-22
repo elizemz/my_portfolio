@@ -1,7 +1,9 @@
 import React from "react";
 
 const Footer = () => {
-  return <div className={`${styles.navbar} h-10`}>Footer</div>;
+  return (
+    <div>Footer</div>
+  );
 };
 
 export default Footer;

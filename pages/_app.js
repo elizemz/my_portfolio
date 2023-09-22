@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div className=" text-white h-screen">
       <Header />
+      <img className="pfp" src="https://discord.com/channels/911322290736726036/1027414362547298374/1154707538370121749"/>
         <div className="head">
         <motion.div
           initial={{ x: 0, opacity: 0, scale: 1 }}

@@ -22,10 +22,29 @@ body{
   justify-content: center;
   margin: auto;
   margin-top: 50px;
-  color: #dbc5fc; 
+  color: #af8deb; 
 }
 
 .pfp{
-  width: 50px;
-  height: 50px;
+  width: 175px;
+  height: 175px;
+  border-radius: 175px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.about{
+  border: 1px solid #564673;
+  width: 700px;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background: linear-gradient(180deg, rgba(36,27,51,0.5) 1%, rgba(23,19,28,1) 100%);
+  margin-top: 100px;
+  box-shadow: 2px 2px 18px 2px #392954;
+  color: #af8deb;
+  font-size: 30px;
 }
